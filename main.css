@@ -1,17 +1,31 @@
+body{
+    margin:0%;
+}
 img{
     position: relative;
 }
 
+.logo{
+    width: 20%;
+}
+
 .fundo-main{
+    text-align: center;
     padding-top: 157px;
     margin-top: -157px;
-    height:max-content;
+    height:600px;
     background-image:url(img/faxada_noite.jpg);
     background-size: 100%;
+    background-position:0px -150px;
+}
+
+#texto-central{
+    font-size: 30px;
 }
 
 #redes{
-    padding-left: 90%;
+    padding-left: 92%;
+    margin-top: -130px;
 }
 
 .qualidade2{
