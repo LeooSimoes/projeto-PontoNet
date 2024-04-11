@@ -8,10 +8,12 @@
         <meta http-equiv="Content-Language" content="pt"/>
         <meta name="keywords" content="provedor de internet, internet em Assaí, PR"/>
         <link rel="stylesheet" href="main.css">
-        <!-- <meta name="author" content="LeooSimões">
+        <meta name="author" content="LeooSimões">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" type="text/css">
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYUYuY9CpwQAZYCIu7tQ8MXsSC_WYgAQA"></script>
+        
     </head>
     
     <body>
@@ -126,7 +128,34 @@
             </section>
 
             <!--SECÇÃO COM MAPA-->
-            <section>MAPA COM LOCALIZAÇÃO DA EMPRESA</section>
+            <section id="map">
+                <!-- Script JavaScript para inicializar o mapa -->
+                <script>
+                    function initMap() {
+                        // Coordenadas do centro do mapa
+                        var centroMapa = { lat: -23.371113697172824, lng: -50.84640929085057 };
+
+                        // Opções do mapa
+                        var opcoesMapa = {
+                            zoom: 18, // Nível de zoom inicial
+                            center: centroMapa // Centro do mapa
+                        };
+
+                        // Criar o mapa e associá-lo ao elemento div com ID 'map'
+                        var mapa = new google.maps.Map(document.getElementById('map'), opcoesMapa);
+
+                        // Adicionar marcador
+                        var marcador = new google.maps.Marker({
+                            position: centroMapa,
+                            map: mapa,
+                            title: 'PontoNet'
+                        });
+                    }
+
+                    // Inicializar o mapa quando a página carregar
+                    google.maps.event.addDomListener(window, 'load', initMap);
+                </script>
+            </section>
 
             <!--RODAPÉ-->
             <footer>  
@@ -140,4 +169,3 @@
     </body>
   
 </html>
-/*https://app.durable.co/website/dashboard*/
