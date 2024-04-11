@@ -114,14 +114,16 @@ h3{
     font-size: 30px;
 }
 
-#faxada{
+#div-faxada{
     position: relative;
+    width: 600px;
+    margin: 50px 20px 80px 50px;
+}
+
+#faxada{
     box-sizing: border-box;
     border-radius: 20px;
-    margin: auto;
     display: block;
-    width: 600px;
-    object-position: 25% 5%;
 }
 
 #map{
