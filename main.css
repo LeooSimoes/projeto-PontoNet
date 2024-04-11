@@ -10,11 +10,6 @@ header{
     z-index: 2;
 }
 
-footer{
-    position: relative;
-    margin-bottom: 50px;
-}
-
 img{
     position: relative;
 }
@@ -90,22 +85,6 @@ img{
     margin-top: -40px;
 }
 
-#map{
-    height: 400px;
-}
-
-.qualidade2{
-    width: 100%;
-}
-
-h1{
-    font-size:70px;
-}
-
-h3{
-    font-size: 30px;
-}
-
 button{
     background-color: black;
     color: white;
@@ -121,4 +100,36 @@ button{
 
 button:hover{
     opacity: 75%;
+}
+
+.qualidade2{
+    width: 100%;
+}
+
+h1{
+    font-size:70px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#faxada{
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    width: 600px;
+    object-position: 25% 5%;
+}
+
+#map{
+    height: 400px;
+    margin: 60px 0px 60px 0px;
+}
+
+footer{
+    position: relative;
+    margin-bottom: 50px;
 }
