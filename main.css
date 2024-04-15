@@ -93,7 +93,7 @@ button{
 }
 
 #div-sec2{
-    margin-top: 250px;
+    margin-top: 400px;
 }
 
 #h2-sec2{
@@ -141,7 +141,7 @@ button{
     display: flex;
     align-items: flex-start;
     gap: 4%;
-    margin: 100px 45px 200px 45px;
+    justify-content: center;
 }
 
 .div-img-sec4{
