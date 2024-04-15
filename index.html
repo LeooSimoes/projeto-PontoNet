@@ -9,10 +9,9 @@
         <meta name="keywords" content="provedor de internet, internet em Assaí, PR"/>
         <link rel="stylesheet" href="main.css">
         <meta name="author" content="LeooSimões">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYUYuY9CpwQAZYCIu7tQ8MXsSC_WYgAQA"></script>
-        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="reveal.js" defer></script>
     </head>
     
     <body>
@@ -51,29 +50,29 @@
             </section>
             
             <section class="seccoes">
-                <div id="div-sec3"><h2 id="h2-sec3">Conexão de alta velocidade</h2></div>
+                <div id="div-sec3"><h2 id="h2-sec">Conexão de alta velocidade</h2></div>
                 <div class="blocos-sec3">
-                    <div class="divblock-sec3">
+                    <div class="divblock-sec3 hiden1">
                         <div><img class="selo" src="img/icon-quality.png"></div>
                         <div>
                             <h3>Instalação rápida e fácil</h3>
-                            <p class="p-sec3">Oferecemos instalação rápida e descomplicada para que você possa aproveitar a internet em casa o mais rápido possível.</p>
+                            <p class="p-sec">Oferecemos instalação rápida e descomplicada para que você possa aproveitar a internet em casa o mais rápido possível.</p>
                         </div>
                     </div>
 
-                    <div class="divblock-sec3">
+                    <div class="divblock-sec3 hiden2">
                         <div><img class="selo" src="img/icon-like.png"></div>
                         <div>
                             <h3>Suporte técnico especializado</h3>
-                            <p class="p-sec3">Nossa equipe de suporte técnico está disponível para garantir que sua conexão permaneça estável e funcionando perfeitamente.</p>
+                            <p class="p-sec">Nossa equipe de suporte técnico está disponível para garantir que sua conexão permaneça estável e funcionando perfeitamente.</p>
                         </div>
                     </div>
                         
-                    <div class="divblock-sec3">
+                    <div class="divblock-sec3 hiden3">
                         <div>
                             <div><img class="selo" src="img/icon-quality.png"></div>
                             <h3>Opções de velocidade personalizadas</h3>
-                            <p class="p-sec3">Oferecemos diferentes opções de velocidade para se adequar às suas necessidades, garantindo que você tenha a melhor experiência online.</p>
+                            <p class="p-sec">Oferecemos diferentes opções de velocidade para se adequar às suas necessidades, garantindo que você tenha a melhor experiência online.</p>
                         </div>
                     </div>
                 </div>
@@ -81,55 +80,59 @@
         
             <!--SEÇÇÃO DE IMAGENS-->
             <section>
-                <div class="flex-img">
-                    <div>
-                        <img src="img/Unorural.jpg" alt="Fiat Uno da empresa" style="width: 100%;">
+                <div class="flex-img hiden1">
+                    <div class="div-img-sec4">
+                        <img src="img/Unorural.jpg" alt="Fiat Uno da empresa">
                     </div>
-                    <div>
-                        <img src="img/torre.jpg" alt="Torre de trasmisão da empresa" style="width: 100%;">
+                    <div class="div-img-sec4 hiden2">
+                        <img src="img/torre.jpg" alt="Torre de trasmisão da empresa">
                     </div>
-                    <div>
-                        <img src="img/frota.jpg" alt="Frota de carros da empresa" style="width: 100%;">
+                    <div class="div-img-sec4 hiden3">
+                        <img src="img/frota.jpg" alt="Frota de carros da empresa">
                     </div>
                 </div>
             </section>
             
             <!--SEÇÇÃO QUALIDADES 2-->
-            <section style="width: 100%;">
+            <section class="seccoes">
                 <div>
-                    <h2>Alta velocidade e confiabilidade.</h2>
+                    <h2 id="h2-sec">Alta velocidade e confiabilidade.</h2>
                 </div>
-                <div class="qualidade2">
-                    <h3>Internet Fibra Óptica</h3>
-                    <p>PontoNet oferece internet 100% fibra óptica de alta qualidade.</p>
-                </div>
-                <div class="qualidade2">
-                    <h3>Taxa de velocidade inicial de 100Mb</h3>
-                    <p>Os clientes da PontoNet desfrutam de uma taxa de velocidade a partir de 100Mb.</p>
-                </div>
-                <div class="qualidade2">
-                    <h3>98% de satisfação do cliente</h3>
-                    <p>PontoNet orgulha-se de alcançar uma taxa de satisfação do cliente de 98%.</p>
-                </div>
-                <div class="qualidade2">
-                    <h3>Planos de velocidade de até 1GB</h3>
-                    <p>A PontoNet entrega planos de altissimas velocidades disponibilizando até 1GB de internet.</p>
+                <div id="div-qualidade2">
+                    <div class="qualidade2 hiden1">
+                        <h3>Internet Fibra Óptica</h3>
+                        <p class="p-sec">PontoNet oferece internet 100% fibra óptica de alta qualidade.</p>
+                    </div>
+                    <div class="qualidade2 hiden2">
+                        <h3>Taxa de velocidade inicial de 100Mb</h3>
+                        <p class="p-sec">Os clientes da PontoNet desfrutam de uma taxa de velocidade a partir de 100Mb.</p>
+                    </div>
+                    <div class="qualidade2 hiden3">
+                        <h3>98% de satisfação do cliente</h3>
+                        <p class="p-sec">PontoNet orgulha-se de alcançar uma taxa de satisfação do cliente de 98%.</p>
+                    </div>
+                    <div class="qualidade2 hiden4">
+                        <h3>Planos de velocidade de até 1GB</h3>
+                        <p class="p-sec">A PontoNet entrega planos de altissimas velocidades disponibilizando até 1GB de internet.</p>
+                    </div>
                 </div>
             </section>
 
             <!--SEÇÇÃO SOBRE NÓS-->
-            <section id="div-faxada">
-                <div>
-                    <img id="faxada" src="img/faxada.jpg" alt="Frente da empresa no dia da inauguração">
-                    <div>
-                        <h2>Sobre nós</h2>
-                        <p>Somos a PontoNet, um provedor de internet localizado em Assaí, PR. Estamos no ramo a mais de 15 anos comprometidos em fornecer serviços de internet confiáveis e de alta velocidade para nossos clientes.<br><br>Com uma equipe especializada e tecnologia de ponta, garantimos uma conexão estável e rápida, permitindo que nossos clientes naveguem na internet, assistam a vídeos em alta definição, joguem online e realizem suas atividades online com total tranquilidade.</p>
+            <section>
+                <div id="div-faxada">
+                    <div class="div-sec6 hiden1">
+                        <img id="faxada" src="img/faxada.jpg" alt="Frente da empresa no dia da inauguração">
+                    </div>
+                    <div class="div-sec6 hiden2">
+                        <h2 id="h2-sec6">Sobre nós</h2>
+                        <p id="p-sec6">Somos a PontoNet, um provedor de internet localizado em Assaí, PR. Estamos no ramo a mais de 15 anos comprometidos em fornecer serviços de internet confiáveis e de alta velocidade para nossos clientes.<br><br>Com uma equipe especializada e tecnologia de ponta, garantimos uma conexão estável e rápida, permitindo que nossos clientes naveguem na internet, assistam a vídeos em alta definição, joguem online e realizem suas atividades online com total tranquilidade.</p>
                     </div>
                 </div>
             </section>
 
             <!--SECÇÃO COM MAPA-->
-            <section id="map">
+            <section class="seccoes" id="map">
                 <!-- Script JavaScript para inicializar o mapa -->
                 <script>
                     function initMap() {
@@ -168,5 +171,4 @@
             </footer>
         </div>
     </body>
-  
 </html>

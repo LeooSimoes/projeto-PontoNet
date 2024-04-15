@@ -52,6 +52,7 @@ header{
 }
 
 #conteudo-main{
+    visibility: hidden;
     position: relative;
     margin-top: -20px;
     min-width: 100%;
@@ -84,7 +85,8 @@ button{
     margin-top: 10px;
 }
 
-.seccoes{ 
+.seccoes{
+    visibility: hidden;
     margin-left: 55px;
 }
 
@@ -111,6 +113,7 @@ button{
     display: flex;
     align-items: flex-start;
     gap: 4%;
+    margin-right: 45px;
 }
 
 .divblock-sec3{
@@ -122,23 +125,50 @@ button{
     width: 45px;
 }
 
-.p-sec3{
+.p-sec{
     font-size: 19px;
     color: #000000b9;
     line-height: 150%;
 }
 
-#h2-sec3{
+#h2-sec{
     font-size: 50px;
 }
 
 .flex-img{
     display: flex;
-        
+    align-items: flex-start;
+    gap: 4%;
+    margin: 100px 45px 200px 45px;
+}
+
+.div-img-sec4{
+    width: 400px;
+    height: 400px;
+}
+
+.div-img-sec4 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.div-img-sec4:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#div-qualidade2{
+    display: flex;
+    align-items: flex-start;
+    gap: 4%;
+    margin-right: 50px;
 }
 
 .qualidade2{
-    width: 100%;
+    width: 400px;
 }
 
 h1{
@@ -151,15 +181,34 @@ h3{
 }
 
 #div-faxada{
-    position: relative;
-    width: 600px;
-    margin: 50px 20px 80px 50px;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin: 100px 25px 80px 55px;
+}
+
+.div-sec6{
+    width: 50%;
+    height: 600px;
 }
 
 #faxada{
-    box-sizing: border-box;
-    border-radius: 20px;
-    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2%;
+    object-position: 5% 5%;
+}
+
+#h2-sec6{
+    font-size: 55px;
+    margin-top: 130px;
+}
+
+#p-sec6{
+    font-size: 19px;
+    color: #000000d3;
+    line-height: 150%;
 }
 
 #map{
