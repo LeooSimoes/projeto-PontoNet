@@ -223,6 +223,7 @@ h3{
     height: 400px;
     border-radius: 5px;
     margin: 150px 5px 60px 5px;
+    box-shadow: 1px 1px 10px #00000025;
 }
 
 footer{
