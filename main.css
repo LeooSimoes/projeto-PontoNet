@@ -113,7 +113,7 @@ button{
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 4%;
 }
 
@@ -169,7 +169,7 @@ button{
 #div-qualidade2{
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 4%;
 }
 
@@ -189,7 +189,7 @@ h3{
 #div-faxada{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 5%;
     margin-top: 200px;
 }
